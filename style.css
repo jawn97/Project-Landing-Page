@@ -9,45 +9,60 @@ body{
   outline: solid;
   justify-content: space-around;
   align-items: center;
+  padding: 10px;
+
+  background-color: #1F2937;
+  
 }
 .header-links{
   display: flex;
   gap: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
+  color: #E5E7EB;
 }
-.header-body{
-  outline: solid;
+.header-logo{
+  font-size: 24px;
+  color: #F9FAF8;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container-header-2{
+  height: 300px;
   display: flex;
-  justify-content: space-around;
+  
   align-items: center;
+  justify-content: space-evenly;
+  outline: dashed green;
+  background-color:#1F2937;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.left-side{
+  outline: solid pink;
+  height: 200px;
+}
+.left-side-title{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+.left-side-text{
+  font-size: 18px;
+}
 
-}
-.header-left-body{
+.right-side{
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  outline: solid;
-  width: 375px;
-}
-.header-right-body{
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex: 1;
-  margin-top: 75px;
-}
-.header-text-body{
+  height: 300px;
+  width: 500px;
   outline: solid;
 }
-.header-button-signup{
-  outline: dashed red;
-  width: 220px;
-  display: flex;
-  justify-content: right;
+
+.right-image{
+  height: 200px;
+  width: 400px;
+  padding-left: 50px;
 }
-.button-header{
-  padding: 5px;
-  width: 75px;
-}
+
 
 .block{
   outline: solid;
@@ -66,6 +81,11 @@ body{
   font-size: 40px;
   outline: solid;
   height: 100px;
+
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
 }
 .block{
   display: flex;
@@ -80,16 +100,6 @@ body{
   gap: 20px;
 }
 
-.text{
-  text-align: center;
-}
-
-.placeholder-image{
-  width: 600px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-}
 .block-image{
   width: 100px;
   height: 150px;
@@ -165,4 +175,11 @@ ul{
 }
 a{
   text-decoration: none;
+}
+button{
+  background-color: #3882F6;
+  padding: 5px;
+  color: white;
+  outline:solid white 1px;
+  
 }
