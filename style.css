@@ -2,11 +2,9 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  outline: solid;
 }
 .container-header{
   display: flex;
-  outline: solid;
   justify-content: space-around;
   align-items: center;
   padding: 10px;
@@ -17,14 +15,14 @@ body{
 .header-links{
   display: flex;
   gap: 20px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #E5E7EB;
 }
 .header-logo{
   font-size: 24px;
   color: #F9FAF8;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 }
 .container-header-2{
   height: 300px;
@@ -32,12 +30,10 @@ body{
   
   align-items: center;
   justify-content: space-evenly;
-  outline: dashed green;
   background-color:#1F2937;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 }
 .left-side{
-  outline: solid pink;
   height: 200px;
 }
 .left-side-title{
@@ -54,7 +50,6 @@ body{
   align-items: center;
   height: 300px;
   width: 500px;
-  outline: solid;
 }
 
 .right-image{
@@ -65,11 +60,9 @@ body{
 
 
 .block{
-  outline: solid;
   height: 200px;
   width: 200px;
   display: flex;
-  flex: wrap;
 }
 .text{
   text-align: center;
@@ -79,10 +72,10 @@ body{
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  outline: solid;
   height: 100px;
 
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
+  
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
@@ -91,13 +84,15 @@ body{
   display: flex;
   flex-wrap: wrap;
   flex: 0 1 auto;
-  
 }
 .container-content{
   display: flex;
   justify-content: center;
   flex: 1;
   gap: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
 
 .block-image{
@@ -107,68 +102,74 @@ body{
   justify-content: center;
   flex: 1;
 }
-.content-2-background{
+.container-content-2{
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:aquamarine;
-  outline: dashed red;
-  height: 250px;
-  margin-top: 100px;
+  background-color:#E5E7EB;
 }
-.container-content-2{
-  margin-bottom: 50px;
+.content-2-background{
+  background-color:#E5E7EB;
+  width: 825px;
 }
 .content-2-text{
-  width: 420px;
-  height: 90px;
+  font-size: 36px;
+  color: #1F2937;
+  font-style:italic;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  flex: 0 1 auto;
-  outline: solid;
-  font-size: 20px;
+  flex: 1;
 }
 .content-2-text-quoter{
   display: flex;
   justify-content: right;
-  outline: solid;
-  width: 410px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  width: 790px;
 }
 .container-of-container-3{
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .container-3-block{
-  background-color: cadetblue;
-  width: 700px;
+  background-color: #3882F6;
+  width: 1100px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 30px;
-  outline: solid;
+  
 }
 .container-3-text-top{
   display: flex;
-  outline: solid;
-  width: 225px;
+  width: 300px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#F9FAF8;
 }
 .container-3-button{
   display: flex;
-  outline: solid;
+  
   width: 100px;
 }
 .button-2{
   padding: 5px;
-  width: 75px;
+  width: 100px;
 }
 .footer{
   margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  outline: solid;
   height: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1F2937;
+  color:#F9FAF8;
 }
 ul{
   list-style: none;
@@ -180,6 +181,8 @@ button{
   background-color: #3882F6;
   padding: 5px;
   color: white;
-  outline:solid white 1px;
+  
+  font-weight: bold;
+  width: 100px;
   
 }
